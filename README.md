@@ -1,5 +1,5 @@
 # You Kan Do It
-You Kan Do It is a simple desktop kanban-style task management application, with an SQLite database for storing task info.
+You Kan Do It is a simple kanban-style task management application, with an SQLite database for storing task info.
 
 There are four default categories -- To Do, In Progress, Procrastinate, and Complete. Users can add/edit/recategorize/delete tasks on the board. 
 Since the application does not include login features, it is recommended for desktop use only.
