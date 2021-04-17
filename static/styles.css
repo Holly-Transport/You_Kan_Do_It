@@ -1,0 +1,249 @@
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 200px 0;
+  }
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 80px;
+  }
+}
+
+header.masthead .post-heading h1 {
+  font-size: 35px;
+}
+
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block;
+}
+
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.masthead .post-heading .meta {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+header.masthead .post-heading .meta a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .post-heading h1 {
+    font-size: 55px;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 30px;
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  font-family: 'Optima', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+
+footer {
+  padding: 50px 0 65px;
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+footer .copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+
+body{
+    margin-top:20px;
+    background: #fafafa
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, .025)
+}
+
+.card-border-primary {
+    border-top: 4px solid #2979ff
+}
+
+.card-border-secondary {
+    border-top: 4px solid #efefef
+}
+
+.card-border-success {
+    border-top: 4px solid #00c853
+}
+
+.card-border-info {
+    border-top: 4px solid #3d5afe
+}
+
+.card-border-warning {
+    border-top: 4px solid #ff9100
+}
+
+.card-border-danger {
+    border-top: 4px solid #ff1744
+}
+
+.card-border-light {
+    border-top: 4px solid #f8f9fa
+}
+
+.card-border-dark {
+    border-top: 4px solid #6c757d
+}
+
+.card-header {
+    border-bottom-width: 1px
+}
+
+.card-actions a {
+    color: #495057;
+    text-decoration: none
+}
+
+.card-actions svg {
+    width: 16px;
+    height: 16px
+}
+
+.card-actions .dropdown {
+    line-height: 1.4
+}
+
+.card-title {
+    font-weight: 500;
+    margin-top: .1rem
+}
+
+.card-subtitle {
+    font-weight: 400
+}
+
+.card-table {
+    margin-bottom: 0
+}
+
+.card-table tr td:first-child,
+.card-table tr th:first-child {
+    padding-left: 1.25rem
+}
+
+.card-table tr td:last-child,
+.card-table tr th:last-child {
+    padding-right: 1.25rem
+}
+
+.card-img-top {
+    height: 100%
+}
+.card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.025);
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e5e9f2;
+    border-radius: .2rem;
+}
+
+.card-header:first-child {
+    border-radius: calc(.2rem - 1px) calc(.2rem - 1px) 0 0;
+}
+
+.card-header {
+    border-bottom-width: 1px;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: inherit;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e9f2;
+}

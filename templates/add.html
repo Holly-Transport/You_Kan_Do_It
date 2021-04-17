@@ -1,0 +1,35 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+{% include "header.html" %}
+
+
+
+  <header class="masthead" style="background-image: url('/static/img/cards.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Add a Task</h1>
+            <span class="subheading">Add to your burden of guilt and stress over unfinished tasks.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <div class="col-lg-8 col-md-10 mx-auto">
+    {{ wtf.quick_form(form, button_map={"submit":"warning"}) }}
+    </div>
+{% include "footer.html" %}
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  </body>
+{% endblock %}
